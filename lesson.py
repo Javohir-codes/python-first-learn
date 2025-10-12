@@ -143,3 +143,44 @@
 #         if el < min_number:
 #             min_number = el
 # print(min_number)
+
+
+
+# Lesson 2
+# test = ["Hello", 123, True, 3.14]
+# print(test[0])
+# print(float(5))
+# a = "Javohir"
+# print(a.upper())
+# print("a, b, c".split(","))
+# print("123 ".strip().isdigit())
+# print("hello ".strip().isalpha())
+
+# Calculator
+
+# number_1 = int(input("Place First Number: "))
+# number_2 = int(input("Place Second Number: "))
+# Operator = input("Place The Operator: ")
+# if Operator == "+":
+#     print(number_1 + number_2)
+# if Operator == "-":
+#     print(number_1 - number_2)
+# if Operator == "/":
+#     print(number_1 / number_2)
+# if Operator == "*":
+#     print(number_1 * number_2)
+
+# original = "[INFO] User: alice Status: OK"
+
+# level = original.split(" ")[0]
+# username = original.split(" ")[2].capitalize()
+# status = original.split(" ")[-1]
+
+# print(level)
+# print(username)
+# print(status)
+
+test = input("Place text: ")
+name = "ab"
+if test == name:
+    print("True")
