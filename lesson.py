@@ -180,7 +180,127 @@
 # print(username)
 # print(status)
 
-test = input("Place text: ")
-name = "ab"
-if test == name:
-    print("True")
+# test = input("Place text: ")
+# name = "ab"
+# if test == name:
+#     print("True")
+
+
+
+
+# films = []
+# films.append("Человек Паук Нет Пути Домой")
+# films.insert(0, "Random")
+# films.remove("Random")
+
+# print(films)
+
+
+# queue = ["Алиса", "Боб", "Чарли"]
+# queue.append("Давид")
+# queue.insert(1, "Элина")
+# queue.pop(0)
+# queue.remove("Боб")
+
+# print(queue)
+
+
+# cart = ["телефон", "наушники"]
+# cart.extend(["чехол", "зарядка"])
+# cart.pop(3)
+# cart.insert(0, "ноутбук")
+
+# print(cart)
+
+
+# tasks = []
+# print("Введите 3 Задачи")
+# a = input("Введите 1-ую задачу: ")
+# b = input("Введите 2-ую задачу: ")
+# c = input("Введите 3-ую задачу: ")
+
+# tasks.append(a)
+# tasks.append(b)
+# tasks.append(c)
+
+# tasks.pop(2)
+
+# print("Проверить почту")
+# print(tasks)
+
+
+# colors = ["красный", "синий", "зелёный"]
+# colors.extend(["жёлтый", "оранжевый"])
+# colors.append("серый")
+# colors.remove("серый")
+
+# print(colors)
+
+
+
+# result = [
+#  ("Макс Ферстаппен", "Red Bull", 1),
+#  ("Льюис Хэмилтон", "Mercedes", 2),
+#  ("Никто")
+# ]
+# гонщик = ("Ландо Норрис", "McLaren", 5)
+# result.append(("Шарль Леклер", "Ferrari", 3))
+# result.append(гонщик)
+
+# first = "1-Place"
+# second = "2-Place"
+# third = "3-Place"
+# fourth = "4-Place"
+# fifth = "5-Place"
+
+# print(first, ": ", result[0])
+# print(second, ": ", result[1])
+# print(third, ": ", result[2])
+# print(fourth, ": ", result[3])
+# print(fifth, ": ", result[4])
+
+
+# инфо1 = ("Оскар Пиастри",)
+# инфо2 = ("McLaren", 6)
+
+# print(инфо1 + инфо2)
+
+
+# команды = ("Red Bull", "Ferrari", "Mercedes", "Red Bull", "McLaren", "Ferrari", "Red Bull")
+# print(команды.count("Red Bull"))
+# print(команды.index("McLaren"))
+
+
+# инопланетяне = [
+#  ("Зоргон", "Нептурон", 3, True),
+#  ("Блип", "Ксандар", 1, False),
+#  ("Блип", "Ксандар", 1, True),
+#  ("Момо", "Кеплер-22б", 2, True)
+# ]
+
+# alien1 = ("Зара", "Андромеда", 4, True)
+# alien2 = ("Крогг", "Венера", 2, False)
+
+# инопланетяне.pop(1)
+# инопланетяне.append(alien1)
+# инопланетяне.append(alien2)
+
+# print(инопланетяне[0][0], end=" ")
+# print(инопланетяне[0][2])
+
+# print(инопланетяне[1][0], end=" ")
+# print(инопланетяне[1][2])
+
+# print(инопланетяне[2][0], end=" ")
+# print(инопланетяне[2][2])
+
+# print(инопланетяне[3][0], end=" ")
+# print(инопланетяне[3][2])
+
+# print(инопланетяне[4][0], end=" ")
+# print(инопланетяне[4][2])
+
+
+# планеты = ("Ксандар", "Нептурон", "Ксандар", "Кеплер-22б", "Ксандар") 
+# print(планеты.count("Ксандар"))
+# print(планеты.index("Кеплер-22б"))
