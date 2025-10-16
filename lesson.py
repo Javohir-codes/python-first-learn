@@ -156,6 +156,8 @@
 # print("123 ".strip().isdigit())
 # print("hello ".strip().isalpha())
 
+
+
 # Calculator
 
 # number_1 = int(input("Place First Number: "))
@@ -163,12 +165,20 @@
 # Operator = input("Place The Operator: ")
 # if Operator == "+":
 #     print(number_1 + number_2)
-# if Operator == "-":
+# elif Operator == "-":
 #     print(number_1 - number_2)
-# if Operator == "/":
+# elif Operator == "/":
 #     print(number_1 / number_2)
-# if Operator == "*":
+# elif Operator == "*":
 #     print(number_1 * number_2)
+# elif Operator == "%":
+#     print(number_1 % number_2)
+# elif Operator == "//":
+#     print(number_1 // number_2)
+# elif Operator == "**":
+#     print(number_1 ** number_2)
+
+
 
 # original = "[INFO] User: alice Status: OK"
 
@@ -304,3 +314,91 @@
 # планеты = ("Ксандар", "Нептурон", "Ксандар", "Кеплер-22б", "Ксандар") 
 # print(планеты.count("Ксандар"))
 # print(планеты.index("Кеплер-22б"))
+
+
+
+
+
+# инопланетяне = [
+#     ("Зоргон", "Нептурон", "3", True),
+#     ("Блип", "Ксандар", "1", False),
+#     ("Блип", "Ксандар", "1", True),
+#     ("Момо", "Кеплер-22б", "2", True),
+#     ("Крогг", "Венера", "2", False),
+#     ("Зара", "Андромеда", "4", True)
+# ]
+
+# for name, planet, eyes, дружелюбный in инопланетяне:
+#     eyes = int(eyes)
+#     if дружелюбный and eyes > 2:
+#         print(name, "Приятный многоглазик")
+#     elif дружелюбный and eyes <= 2:
+#         print(name, "Милый малыш")
+#     else:
+#         print("ОПАСНО! держитесь подальше от", name)
+
+
+# курсы = {"Python", "Java", "C++", "JavaScript", "Go"}
+# новые_курсы = {"Kotlin", "Swift", "TypeScript"}
+# новые_курсы.add("Rust")
+# курсы.update(новые_курсы)
+# курсы.discard("C++")
+# курсы.discard("Ruby")
+# print(курсы)
+
+
+# все_курсы = {}
+# frontend = {"HTML", "CSS", "JavaScript", "React"}
+# backend = {"Python", "Node.js", "Java", "SQL"}
+
+# все_курсы = frontend | backend
+# sort = sorted(все_курсы)
+
+# print(все_курсы)
+# print(sort)
+
+
+# анна = {"Python", "JavaScript", "HTML"}
+# борис = {"Java", "C++", "HTML"}
+
+# both = анна & борис
+# print("Оба проходили:", both)
+
+# unique_anna = анна - борис
+# print("Уникальные для Анны:", unique_anna)
+
+# all = анна | борис
+# print("Все курсы:", all)
+
+
+
+# x = int(input("Введи число: "))
+
+# if x > 0:
+#     print("Положительное")
+# elif x < 0:
+#     print("Отрицательное")
+# elif x == 0:
+#     print("Ноль")
+
+
+# a = int(input("Введите первое число: "))
+# b = int(input("Введите второе число: "))
+# c = int(input("Введите третье число: "))
+
+# if a > b and a > c:
+#     print("Самое большое:", a)
+# elif b > a and b > c:
+#     print("Самое большое:", b)
+# else:
+#     print("Самое большое:", c)
+
+# if a < b and a < c:
+#     print("Самое маленькое:", a)
+# elif b < a and b < c:
+#     print("Самое маленькое:", b)
+# else:
+#     print("Самое маленькое:", c)
+
+# if a == b == c:
+#     print("Все числа равны")
