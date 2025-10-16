@@ -402,3 +402,50 @@
 
 # if a == b == c:
 #     print("Все числа равны")
+
+
+# Проверка Возраста
+
+# age = int(input("How Old Are You: "))
+# if age < 7:
+#     print("Ты ещё ребёнок")
+# elif age >= 7 and age <= 18:
+#     print("Ты школьник")
+# else:
+#     print("Ты взрослый")
+
+
+# Привет По Разному
+
+# hi = input("Write Hello In Your Language: ")
+
+# if hi == "Hello":
+#     print("It's English")
+# elif hi in ("Salom", "Assalomu Aleykum"):
+#     print("It's Uzbek")
+# elif hi == "Привет":
+#     print("It's Russian")
+# elif hi == "Салем":
+#     print("It's Kazax")
+# elif hi == "Hallo":
+#     print("It's Germany")
+# elif hi == "Bonjour":
+#     print("It's France")
+# else:
+#     print("Unknow")
+
+
+# Оценка
+
+# score = int(input("Введите балл (0–100): "))
+
+# if score >= 90 and score <= 100:
+#     print("Отлично")
+# elif score >= 70 and score <= 89:
+#     print("Хорошо")
+# elif score >= 50 and score <= 69:
+#     print("Удовлетворительно")
+# elif score >= 1 and score <= 49:
+#     print("Плохо")
+# else:
+#     print("Не участвовал")
