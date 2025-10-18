@@ -449,3 +449,35 @@
 #     print("Плохо")
 # else:
 #     print("Не участвовал")
+
+
+
+    # Сколько Гласных В Слове
+
+# letter = input("Введите Текст: ")
+# count = 0
+
+# for i in letter:
+#     if i in "aeiou":
+#         count += 1
+
+#     elif i in "аеёиоуыэюя":
+#         count += 1
+
+# print("Гласных букв:", count)
+
+
+
+    # Сколько Пробелов В Слове
+
+# text = input("Place Text: ")
+# count = 0
+
+# for i in text:
+#     if i in " ":
+#         count += 1
+
+# print("Количество пробелов:", count)
+
+
+
